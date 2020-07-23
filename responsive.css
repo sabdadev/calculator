@@ -1,8 +1,148 @@
-@media(max-width : 670px) {
-    width: 100%;
+@media(max-width: 640px) {
+    body {
+        padding: 0;
+        padding-top: 8px;
+        margin: auto;
+    }
 
+    #container {
+        width: 355px;
+        height: 625px;
+        margin: auto;
+        padding-top: 15px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: center;
+    }
+
+    #calculator {
+        width: 320px;
+        height: 550px;
+        position: relative;
+        align-items: center;
+
+        margin: auto;
+        top: 20px;
+    }
+
+    #calculator:hover {
+        box-shadow: 0 0 5px #03e9f4,
+            0 0 10px #03e9f4,
+            0 0 15px #03e9f4,
+            0 0 25px #03e9f4;
+        transition: 0.5s;
+    }
 }
 
-@media(max-width: 1000px) {
-    width: 100%
+@media(max-width: 736px) {
+    body {
+        padding: 0;
+        padding-top: 8px;
+        margin: auto;
+    }
+
+    #container {
+        width: 390px;
+        height: 800px;
+        margin: auto;
+        padding-top: 15px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: center;
+    }
+
+    #calculator {
+        width: 330px;
+        height: 580px;
+        position: relative;
+        align-items: center;
+
+        margin: auto;
+        top: 90px;
+    }
+
+    #calculator:hover {
+        box-shadow: 0 0 5px #03e9f4,
+            0 0 10px #03e9f4,
+            0 0 15px #03e9f4,
+            0 0 25px #03e9f4;
+        transition: 0.5s;
+    }
+
+    #result {
+        height: 140px;
+    }
+
+    #history {
+        text-align: right;
+        height: 20px;
+        margin: 0 20px;
+        padding-top: 20px;
+
+    }
+
+    #output {
+        text-align: right;
+        height: 60px;
+        margin: 10px 20px;
+
+    }
+}
+
+@media(max-width: 667px) {
+    body {
+        padding: 0;
+        padding-top: 8px;
+        margin: auto;
+    }
+
+    #container {
+        width: 355px;
+        height: 635px;
+        margin: auto;
+        padding-top: 15px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: center;
+    }
+
+    #calculator {
+        width: 330px;
+        height: 565px;
+        position: relative;
+        align-items: center;
+
+        margin: auto;
+        top: 30px;
+    }
+
+    #calculator:hover {
+        box-shadow: 0 0 5px #03e9f4,
+            0 0 10px #03e9f4,
+            0 0 15px #03e9f4,
+            0 0 25px #03e9f4;
+        transition: 0.5s;
+    }
+
+    #result {
+        height: 140px;
+    }
+
+    #history {
+        text-align: right;
+        height: 20px;
+        margin: 0 20px;
+        padding-top: 20px;
+
+    }
+
+    #output {
+        text-align: right;
+        height: 60px;
+        margin: 10px 20px;
+
+    }
 }
