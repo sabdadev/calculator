@@ -4,7 +4,6 @@
         padding-top: 8px;
         margin: auto;
     }
-
     #container {
         width: 355px;
         height: 625px;
@@ -15,7 +14,6 @@
         background-attachment: fixed;
         align-items: center;
     }
-
     #calculator {
         width: 280px;
         height: 555px;
@@ -26,7 +24,6 @@
         border-radius: 5px;
         box-shadow: 0 5px 10px rgba(48, 47, 47, 0.4);
     }
-
     .operator,
     .number,
     .empty {
@@ -39,8 +36,6 @@
         font-weight: bold;
         font-size: 15px;
     }
-
-
     #calculator:hover {
         box-shadow: 0 0 5px #03e9f4,
             0 0 10px #03e9f4,
@@ -56,7 +51,6 @@
         padding-top: 8px;
         margin: auto;
     }
-
     #container {
         width: 365px;
         height: 640px;
@@ -67,7 +61,6 @@
         background-attachment: fixed;
         align-items: center;
     }
-
     #calculator {
         width: 280px;
         height: 555px;
@@ -78,7 +71,6 @@
         border-radius: 5px;
         box-shadow: 0 5px 10px rgba(48, 47, 47, 0.4);
     }
-
     .operator,
     .number,
     .empty {
@@ -91,8 +83,6 @@
         font-weight: bold;
         font-size: 15px;
     }
-
-
     #calculator:hover {
         box-shadow: 0 0 5px #03e9f4,
             0 0 10px #03e9f4,
